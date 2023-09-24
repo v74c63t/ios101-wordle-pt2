@@ -63,6 +63,9 @@ class BoardController: NSObject,
   private func applyNumLettersSettings(with settings: [String: Any]) {
     // START YOUR CODE HERE
     // ...
+      if let numLetters = settings[kNumLettersKey] as? Int { // must use as int to change it from any to int
+          numItemsPerRow = numLetters
+      }
     // END YOUR CODE HERE
   }
   
