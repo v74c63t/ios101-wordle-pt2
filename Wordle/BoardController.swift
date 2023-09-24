@@ -111,6 +111,9 @@ class BoardController: NSObject,
   private func applyIsAlienWordleSettings(with settings: [String: Any]) {
     // START YOUR CODE HERE
     // ...
-    // START YOUR CODE HERE
+      if let alienWordle = settings[kIsAlienWordleKey] as? Bool {
+          isAlienWordle = alienWordle
+      }
+    // END YOUR CODE HERE
   }
 }
