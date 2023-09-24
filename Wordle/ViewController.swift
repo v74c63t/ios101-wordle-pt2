@@ -47,6 +47,12 @@ class ViewController: UIViewController,
     // in the function that you fire when the button is tapped
     // START YOUR CODE HERE
     // ...
+      let leftBarButtonItem = UIBarButtonItem(title: "Reset",
+                                               style: .plain,
+                                               target: self,
+                                               action: #selector(didTapSettingsButton))
+      leftBarButtonItem.tintColor = .white
+      navigationItem.leftBarButtonItem = leftBarButtonItem
     // END YOUR CODE HERE
   }
   
