@@ -2,7 +2,7 @@
 
 Submitted by: **Vanessa Tang**
 
-**Wordle** is an app that ... [TODO] 
+**Wordle** is an app that allows users to play a word game in which they try to guess the goal word in a certain number tries. Users are able to customize the word theme, word length, and the number of guesses they can have. They may also choose the alien theme which causes the goal word to change per guess. There is also a reset button that allows users to reset the board while keeping the same settings and goal word previously. 
 
 Time spent: **1** hours spent in total
 
