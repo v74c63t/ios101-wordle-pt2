@@ -50,10 +50,14 @@ class ViewController: UIViewController,
       let leftBarButtonItem = UIBarButtonItem(title: "Reset",
                                                style: .plain,
                                                target: self,
-                                               action: #selector(didTapSettingsButton))
+                                               action: #selector(didTapResetButton))
       leftBarButtonItem.tintColor = .white
       navigationItem.leftBarButtonItem = leftBarButtonItem
+
     // END YOUR CODE HERE
+  }
+  @objc private func didTapResetButton() {
+      boardController.resetBoardWithCurrentSettings()
   }
   
   @objc private func didTapSettingsButton() {
